@@ -1,21 +1,59 @@
 
-body{
-	background-color: white;
+/* grey header*/
+#bar{
+	background-color: grey;
+	
 }
 
-#Gl{
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
+nav{
+	
 }
 
+/* title center*/
 #title{
 	text-align: center;
 	margin: 20px;
 	
 }
 
-#bar{
-	background-color: grey;
+
+body{
+	background-color: white;
+	font-family: 'open Sans' , sans-serif;
+}
+
+
+/* body image*/
+#Gl{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.Gallery{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+.Gallery li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
 	
 }
+
+
+img{
+	max-width:100%;
+}
+
+footer{
+	font-size: 0.75em;
+	text-align: left;
+	padding-top: 50px;
+	color: black;
+}
+
+
+
